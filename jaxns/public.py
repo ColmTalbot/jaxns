@@ -19,6 +19,7 @@ from jaxns.nested_samplers.common.types import TerminationCondition, NestedSampl
 from jaxns.nested_samplers.sharded import ShardedStaticNestedSampler
 from jaxns.plotting import plot_cornerplot, plot_diagnostics
 from jaxns.samplers.uni_slice_sampler import UniDimSliceSampler
+from jaxns.samplers.ensemble_sampler import DESampler
 from jaxns.utils import summary, save_results, load_results
 
 tfpd = tfp.distributions
